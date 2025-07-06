@@ -398,6 +398,7 @@ html {
 #reservation {
     display: flex;
     height: 100vh;
+    min-height: 100vh;
 }
 
 #reservationInputs {
@@ -416,9 +417,11 @@ html {
     position: relative;
     width: 50%;
     height: 15%;
+    flex-shrink: 0;
 }
 
 #reservationInputs label span {
+    pointer-events: none;
     position: absolute;
     top: 50%;
     left: 10%;
