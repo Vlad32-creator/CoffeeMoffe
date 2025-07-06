@@ -2,9 +2,7 @@
     margin: 0;
     padding: 0;
 }
-html:focus-within {
-  scroll-behavior: auto;
-}
+
 html {
     scroll-behavior: smooth;
 }
@@ -217,7 +215,9 @@ html {
 
 /* Reservation */
 @media (max-width: 500px) {
-
+    html:focus-within {
+        scroll-behavior: auto;
+    }
     #main section h1 {
         font-size: 4rem;
     }
