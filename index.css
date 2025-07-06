@@ -2,7 +2,9 @@
     margin: 0;
     padding: 0;
 }
-
+html:focus-within {
+  scroll-behavior: auto;
+}
 html {
     scroll-behavior: smooth;
 }
